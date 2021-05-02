@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C384387261A16360099FA49 /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C384386261A16360099FA49 /* GarageViewController.swift */; };
 		8C39A58025E2C32A0058A016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39A57F25E2C32A0058A016 /* AppDelegate.swift */; };
 		8C39A58225E2C32A0058A016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39A58125E2C32A0058A016 /* SceneDelegate.swift */; };
 		8C39A58425E2C32A0058A016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C39A58325E2C32A0058A016 /* ViewController.swift */; };
 		8C39A58725E2C32A0058A016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C39A58525E2C32A0058A016 /* Main.storyboard */; };
 		8C39A58925E2C32D0058A016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C39A58825E2C32D0058A016 /* Assets.xcassets */; };
 		8C39A58C25E2C32D0058A016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C39A58A25E2C32D0058A016 /* LaunchScreen.storyboard */; };
+		8CA8C32125FE68A8002A13B7 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8C32025FE68A8002A13B7 /* Temp.swift */; };
+		8CA8C32625FE751C002A13B7 /* MyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8C32525FE751C002A13B7 /* MyViews.swift */; };
+		8CA8C32D25FE7624002A13B7 /* BlackJackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA8C32C25FE7624002A13B7 /* BlackJackController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C384386261A16360099FA49 /* GarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
 		8C39A57C25E2C32A0058A016 /* First App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C39A57F25E2C32A0058A016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C39A58125E2C32A0058A016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		8C39A58825E2C32D0058A016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C39A58B25E2C32D0058A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C39A58D25E2C32D0058A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA8C32025FE68A8002A13B7 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
+		8CA8C32525FE751C002A13B7 /* MyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViews.swift; sourceTree = "<group>"; };
+		8CA8C32C25FE7624002A13B7 /* BlackJackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				8C39A58825E2C32D0058A016 /* Assets.xcassets */,
 				8C39A58A25E2C32D0058A016 /* LaunchScreen.storyboard */,
 				8C39A58D25E2C32D0058A016 /* Info.plist */,
+				8CA8C32025FE68A8002A13B7 /* Temp.swift */,
+				8CA8C32525FE751C002A13B7 /* MyViews.swift */,
+				8CA8C32C25FE7624002A13B7 /* BlackJackController.swift */,
+				8C384386261A16360099FA49 /* GarageViewController.swift */,
 			);
 			path = "First App";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA8C32D25FE7624002A13B7 /* BlackJackController.swift in Sources */,
 				8C39A58425E2C32A0058A016 /* ViewController.swift in Sources */,
 				8C39A58025E2C32A0058A016 /* AppDelegate.swift in Sources */,
+				8C384387261A16360099FA49 /* GarageViewController.swift in Sources */,
 				8C39A58225E2C32A0058A016 /* SceneDelegate.swift in Sources */,
+				8CA8C32125FE68A8002A13B7 /* Temp.swift in Sources */,
+				8CA8C32625FE751C002A13B7 /* MyViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guy.test.First-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guy.test.First-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
